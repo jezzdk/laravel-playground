@@ -1,0 +1,27 @@
+{
+    "name": "jezzdk/laravel-sweet-regan",
+    "description": "Shows a lovely message from everyones favorite demon every once in a while.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jess Stopa",
+            "email": "jess@stopa.dk",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jezzdk\\LaravelSweetRegan\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jezzdk\\LaravelSweetRegan\\SweetReganServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {}
+}
